@@ -1,33 +1,39 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
-    <title>Mistério na Mansão</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Delius&display=swap" rel="stylesheet">
+  <title>Mistério na Mansão</title>
 </head>
+
 <body>
   <main>
-   <div class="passo ativo id=passo 0">
-   <img scr="cenario-passo0.png" alt=""
-       <p>Você é um(a) detetive convidado para uma festa em uma mansão isolada. Quando a noite chega, o anfitrião é encontrado morto. Agora, você deve investigar, mas a mansão está cheia de segredos e moradores estranhos. Qual é seu primeiro passo?</p>
-    <button class="btn-proximo" data-proximo="1">Pedir para que o local seja isolado e começar as investigações sozinho (a).</button>
-    <button class="btn-proximo" data-proximo="2">Chamar seu amigo, também detetive, para ajudar.</button>
+    <div class="passo ativo id=passo 0">
+      <img scr="cenario-passo0.png" alt="">
+      <p> Você é um(a) detetive convidado para uma festa em uma mansão isolada.
+      Quando a noite chega, o anfitrião é encontrado morto. Agora, você deve investigar, mas a mansão está cheia de
+      segredos e moradores estranhos. Qual é seu primeiro passo?</p>
+      <button class="btn-proximo" data-proximo="1">Pedir para que o local seja isolado e começar as investigações
+        sozinho (a).</button>
+      <button class="btn-proximo" data-proximo="2">Chamar seu amigo, também detetive, para ajudar.</button>
     </div>
     <div class="passo id=passo 1">
-        <p>Você isola o local e começa a investigar sozinho(a). Por onde começa?</p>
-    <button class="btn-proximo" data-proximo="3">Escritório da vítima.</button>
-    <button class="btn-proximo" data-proximo="4">Salão onde aconteceu o crime</button>
+      <p>Você isola o local e começa a investigar sozinho(a). Por onde começa?</p>
+      <button class="btn-proximo" data-proximo="3">Escritório da vítima.</button>
+      <button class="btn-proximo" data-proximo="4">Salão onde aconteceu o crime</button>
     </div>
     <div class="passo" id="passo-2">
       <p>Você chama Ricardo para te ajudar nas investigações. Juntos, decidem:</p>
-    <button class="btn-proximo" data-proximo="5">Investigar o escritório da vítima.</button>
-    <button class="btn-proximo" data-proximo="6">Investigar o salão onde o crime aconteceu.</button>
+      <button class="btn-proximo" data-proximo="5">Investigar o escritório da vítima.</button>
+      <button class="btn-proximo" data-proximo="6">Investigar o salão onde o crime aconteceu.</button>
     </div>
   </main>
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
+
 </html>
