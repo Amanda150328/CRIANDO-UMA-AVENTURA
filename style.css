@@ -14,3 +14,11 @@ background-color: rgba(213, 166, 255, 0.63)
 color: white
  font-family: "Delius", cursive;
 }
+
+.passo{
+    display: none;
+}
+
+.passo.ativo { 
+    diplay: block:
+}
